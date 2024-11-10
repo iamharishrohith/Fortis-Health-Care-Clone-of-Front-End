@@ -1,0 +1,162 @@
+/* Responsive styles for Fortis Health Care website */
+
+/* Small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #head-box {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    #right-box {
+      width: 100%;
+      justify-content: space-between;
+    }
+  
+    #banner-box-1 {
+      width: 90%;
+    }
+  
+    #banner-box-1 h1 {
+      font-size: 1.8rem;
+    }
+  
+    #block-1 {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    #block-box1, #block-box2 {
+      width: 100%;
+    }
+  
+    .assets {
+      width: 90%;
+      margin-bottom: 10px;
+    }
+  
+    #block-3 {
+      height: auto;
+    }
+  
+    #reports-box {
+      width: 100%;
+    }
+  
+    #block-5 {
+      flex-direction: column;
+      height: auto;
+      padding: 20px 0;
+    }
+  
+    #block-5 h1 {
+      width: 90%;
+      text-align: center;
+      margin: 10px 0;
+    }
+  
+    #app-connect {
+      width: 90%;
+    }
+  
+    #block-6 {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    #sub-block-1, #sub-block-2 {
+      width: 95%;
+    }
+  
+    footer {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    #about-box, #social-connect, #links {
+      width: 100%;
+    }
+  }
+  
+  /* Medium devices (tablets, 601px to 1024px) */
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    #banner-box-1 {
+      width: 80%;
+    }
+  
+    #block-1 {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    #block-box1, #block-box2 {
+      width: 90%;
+      margin: auto;
+    }
+  
+    #reports-box {
+      width: 70%;
+    }
+  
+    #block-5 h1 {
+      width: 40%;
+      font-size: 18px;
+    }
+  
+    #block-6 {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    #sub-block-1, #sub-block-2 {
+      width: 90%;
+      margin: 20px auto;
+    }
+  }
+  
+  /* Large devices (laptops/desktops, 1025px and up) */
+  @media only screen and (min-width: 1025px) {
+    /* Add any specific styles for larger screens if needed */
+  }
+  
+  /* Accessibility improvements */
+  @media (prefers-reduced-motion: reduce) {
+    * {
+      transition: none !important;
+      animation: none !important;
+    }
+  }
+  
+  /* High contrast mode */
+  @media (prefers-contrast: high) {
+    body {
+      background-color: #ffffff;
+      color: #000000;
+    }
+  
+    a, button, input[type="submit"] {
+      color: #000000;
+      background-color: #ffffff;
+      border: 2px solid #000000;
+    }
+  }
+  @media (max-width: 768px) {
+    .nav-menu-box {
+      flex-wrap: wrap;
+      height: auto;
+      padding: 10px 0;
+    }
+  
+    .nav-icon-box {
+      width: 33.33%;
+      margin-bottom: 15px;
+    }
+  
+    .nav-icon {
+      width: 60px;
+      height: 60px;
+    }
+  
+    .nav-icon-box span {
+      font-size: 12px;
+    }
+  }
